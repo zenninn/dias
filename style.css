@@ -1,0 +1,514 @@
+body {
+    font-family: 'Kaushan Script', cursive;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+}
+
+.container {
+    width: 100%;
+    max-width: 1440px;
+    margin: auto;
+}
+
+/* title__welcome */
+
+.title {
+    width: 100%;
+    padding-top: 30px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+
+}
+
+.title__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 50px;
+
+}
+
+.title__logo {
+    font-size: 48px;
+    font-weight: 700;
+    color: #0E0578;
+}
+
+.nav {
+    font-size: 30px;
+    font-weight: 400;
+}
+
+.nav__link {
+    text-decoration: none;
+    margin: 0 20px;
+    color: #686565;
+
+}
+
+
+.nav__link:hover {
+    color: rgb(69, 69, 69);
+}
+
+.title__welcome {
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 50px;
+}
+
+
+/* title__welcome */
+
+.text__title {
+    font-size: 30px;
+    font-weight: 400;
+    color: #2000E7;
+}
+
+.text__name {
+    width: 447px;
+    font-size: 48px;
+    font-weight: 700;
+    color: #2000E7;
+}
+
+.text__designer {
+    display: inline;
+    color: #F2BD00;
+}
+
+.text__description {
+    width: 616px;
+    font-size: 24px;
+    font-weight: 400;
+    color: #383838;
+}
+
+.title__image {
+    width: 564px;
+    height: 564px;
+    margin-left: 100px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+
+.button__hire {
+    background-color: #fff;
+    border: 1px solid #2000E7;
+    width: 246px;
+    height: 72px;
+    border-radius: 10px;
+    color: #2000E7;
+    font-size: 24px;
+    font-weight: 400;
+    box-shadow: 10px 20px 8px rgba(0, 0, 0, 0.285);
+
+}
+
+.button__hire:hover {
+    background-color: #2000E7;
+    color: #fff;
+}
+
+.button__project {
+    background-color: #fff;
+    border: 1px solid #2000E7;
+    margin-right: 50px;
+    width: 246px;
+    height: 72px;
+    color: #2000E7;
+    font-size: 24px;
+    font-weight: 400;
+    border-radius: 10px;
+    box-shadow: 10px 20px 8px rgba(0, 0, 0, 0.285);
+
+}
+
+.button__project:hover {
+    background-color: #2000E7;
+    color: #fff;
+}
+
+.about-me {
+    margin-top: 1000px;
+    margin-left: 50px;
+
+}
+
+.info {
+    display: flex;
+    justify-content: space-between;
+}
+
+.info__img {
+    width: 925px;
+    height: 925px;
+
+
+
+}
+
+.info__about_me {
+    width: 352px;
+    height: 72px;
+    margin-top: 300px;
+    top: 1272px;
+    font-weight: 700;
+    font-size: 48px;
+
+    color: #2000E7;
+}
+
+.info__description {
+    width: 415px;
+    height: 303px;
+    top: 1358px;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.info__hire_me {
+    background-color: #fff;
+    border: 1px solid #2000E7;
+    border-radius: 10px;
+    width: 246px;
+    height: 72px;
+    margin-top: 25px;
+    color: #2000E7;
+    font-size: 24px;
+    font-weight: 400;
+
+    box-shadow: 10px 20px 8px rgba(0, 0, 0, 0.285);
+
+}
+
+.info__hire_me:hover {
+    background-color: #2000E7;
+    color: #fff;
+}
+
+.projects {
+    background-color: #FFD69633;
+    margin-top: 350px;
+}
+
+.project {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.my__projects {
+    font-weight: 700;
+    font-size: 48px;
+    letter-spacing: 8px;
+    color: #3B1FEA;
+    margin-top: 50px;
+
+}
+
+.info_description {
+    font-size: 24px;
+    font-weight: 400;
+    color: #000000;
+}
+
+/*Photo*/
+
+.photo__container {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px;
+    margin-left: 100px;
+    margin-top: 40px;
+    justify-content: center;
+    align-items: center;
+}
+
+.photo__png {
+    width: 246px;
+    height: 180px;
+    border-radius: 10px;
+}
+
+.photo__png_no_radius {
+    width: 246px;
+    height: 180px;
+}
+
+.photo__png_s {
+    width: 246px;
+    height: 180px;
+    margin-left: 20px;
+}
+
+.contact_me {
+    background-color: #43BAFD0F;
+    margin-top: 300px;
+}
+
+.contact {
+    display: flex;
+    justify-content: space-between;
+}
+
+.contact__title {
+    width: 535px;
+    height: 96px;
+    font-size: 64px;
+    font-weight: 700px;
+    letter-spacing: 7px;
+    margin-left: 500px;
+
+    color: #220BE8;
+}
+
+.contact__description {
+    width: 591px;
+    height: 36px;
+    margin: auto;
+    font-size: 24px;
+    font-weight: 400px;
+}
+
+.contact__info {
+    width: 540px;
+    margin-top: 100px;
+    margin-left: 50px;
+}
+
+.contact__email {
+    color: #000;
+    font-size: 32px;
+    font-weight: 400;
+    width: 653px;
+    height: 94px;
+    box-shadow: 10px 20px 8px rgba(0, 0, 0, 0.285);
+
+}
+
+.contact__password {
+    color: #000;
+    font-size: 32px;
+    font-weight: 400;
+    width: 653px;
+    height: 94px;
+    margin-top: 50px;
+    box-shadow: 10px 20px 8px rgba(0, 0, 0, 0.285);
+}
+
+.contact__msg {
+    color: #000;
+    font-size: 32px;
+    font-weight: 400;
+    width: 653px;
+    height: 265px;
+    margin-top: 50px;
+    box-shadow: 10px 20px 8px rgba(0, 0, 0, 0.285);
+
+}
+
+.contact__email::placeholder {
+    color: #656565;
+    font-size: 32px;
+    font-weight: 400;
+}
+
+.contact__password::placeholder {
+    color: #656565;
+    font-size: 32px;
+    font-weight: 400;
+}
+
+.contact__msg::placeholder {
+    color: #656565;
+    font-size: 32px;
+    font-weight: 400;
+}
+
+.contact__button {
+    color: #000;
+    font-size: 32px;
+    font-weight: 400;
+    width: 327px;
+    height: 94px;
+    margin-top: 50px;
+    margin-left: 150px;
+    box-shadow: 10px 20px 8px rgba(0, 0, 0, 0.285);
+}
+
+.contact__img {
+    Width: 958px;
+    Height: 958px;
+}
+
+.other {
+    background-color: #FFD69633;
+    margin-top: 180px;
+}
+
+.other__view {
+    display: flex;
+    font-family: 'Jost', sans-serif;
+}
+
+.other__logo {
+    margin-top: 100px;
+}
+
+.other__text {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-left: 100px;
+    margin-top: 100px;
+}
+
+.other__up,
+.other__down {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.other__up {
+    color: #000;
+    font-size: 31px;
+    font-weight: 700;
+}
+
+.other__down {
+    color: #000;
+    font-size: 31px;
+    font-weight: 400;
+}
+
+.other__up>*,
+.other__down>* {
+    margin-right: 50px;
+}
+
+.logo__text {
+    font-family: 'Poppins', sans-serif;
+    color: #0E0578;
+    font-size: 48px;
+    font-weight: 700;
+    margin-left: 70px;
+    letter-spacing: 25px;
+}
+
+.input-button-container {
+    display: flex;
+    align-items: center;
+}
+
+.other__mail {
+    background-color: #000;
+    font-family: 'Poppins', sans-serif;
+    color: #fff;
+    font-size: 31px;
+    font-weight: 700;
+    border-radius: 30px;
+    width: 323px;
+    height: 97px;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.other__mail::placeholder {
+    font-family: 'Poppins', sans-serif;
+    color: #fff;
+    font-size: 31px;
+    font-weight: 700;
+}
+
+.other__btn {
+    background-color: #F965FC;
+    color: #fff;
+    font-size: 31px;
+    font-weight: 700;
+    border-radius: 30px;
+    width: 178px;
+    height: 97px;
+    margin-right: 10px;
+    border: none;
+    margin-top: 20px;
+
+}
+
+.line {
+    border: 3px solid black;
+    width: 1334px;
+    margin-top: 100px;
+    margin-left: 50px;
+}
+
+.copyright {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+}
+
+.copyright__icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.copyright__text {
+    font-size: 32px;
+    font-weight: 400;
+    font-family: 'Jost', sans-serif;
+    margin-left: 40px;
+}
+
+.icon__youtube {
+    width: 72px;
+    height: 72px;
+    margin: 0 20px;
+    margin-bottom: 30px;
+}
+
+.icon__inst {
+    width: 76px;
+    height: 76px;
+    margin: 0 20px;
+    margin-bottom: 70px;
+}
+
+.icon__facebook {
+    width: 18.68px;
+    height: 34.5px;
+    margin: 0 20px;
+    margin-bottom: 70px;
+}
+
+.icon__linkedin {
+    width: 71px;
+    height: 71px;
+    margin: 0 20px;
+    margin-bottom: 70px;
+}
